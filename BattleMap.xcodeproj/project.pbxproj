@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46EE50C7155E884900B0CAED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EE50C6155E884900B0CAED /* UIKit.framework */; };
+		46EE50C9155E884900B0CAED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EE50C8155E884900B0CAED /* Foundation.framework */; };
+		46EE50CB155E884900B0CAED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EE50CA155E884900B0CAED /* CoreGraphics.framework */; };
+		46EE50D1155E884900B0CAED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46EE50CF155E884900B0CAED /* InfoPlist.strings */; };
+		46EE50D3155E884900B0CAED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE50D2155E884900B0CAED /* main.m */; };
+		46EE50D7155E884900B0CAED /* BattleMapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE50D6155E884900B0CAED /* BattleMapAppDelegate.m */; };
+		46EE50DA155E884900B0CAED /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EE50D8155E884900B0CAED /* MainStoryboard_iPhone.storyboard */; };
+		46EE50DD155E884900B0CAED /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EE50DB155E884900B0CAED /* MainStoryboard_iPad.storyboard */; };
+		46EE50E0155E884900B0CAED /* BattleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE50DF155E884900B0CAED /* BattleMapViewController.m */; };
+		46EE50E8155E884900B0CAED /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EE50E7155E884900B0CAED /* SenTestingKit.framework */; };
+		46EE50E9155E884900B0CAED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EE50C6155E884900B0CAED /* UIKit.framework */; };
+		46EE50EA155E884900B0CAED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EE50C8155E884900B0CAED /* Foundation.framework */; };
+		46EE50F2155E884900B0CAED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46EE50F0155E884900B0CAED /* InfoPlist.strings */; };
+		46EE50F5155E884900B0CAED /* BattleMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE50F4155E884900B0CAED /* BattleMapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46EE50EB155E884900B0CAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EE50B9155E884900B0CAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46EE50C1155E884900B0CAED;
+			remoteInfo = BattleMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46EE50C2155E884900B0CAED /* BattleMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EE50C6155E884900B0CAED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		46EE50C8155E884900B0CAED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		46EE50CA155E884900B0CAED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		46EE50CE155E884900B0CAED /* BattleMap-Info.plist */ = {isa = PBXFileReference; path = "BattleMap-Info.plist"; sourceTree = "<group>"; };
+		46EE50D0155E884900B0CAED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46EE50D2155E884900B0CAED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46EE50D4155E884900B0CAED /* BattleMap-Prefix.pch */ = {isa = PBXFileReference; path = "BattleMap-Prefix.pch"; sourceTree = "<group>"; };
+		46EE50D5155E884900B0CAED /* BattleMapAppDelegate.h */ = {isa = PBXFileReference; path = BattleMapAppDelegate.h; sourceTree = "<group>"; };
+		46EE50D6155E884900B0CAED /* BattleMapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattleMapAppDelegate.m; sourceTree = "<group>"; };
+		46EE50D9155E884900B0CAED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		46EE50DC155E884900B0CAED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		46EE50DE155E884900B0CAED /* BattleMapViewController.h */ = {isa = PBXFileReference; path = BattleMapViewController.h; sourceTree = "<group>"; };
+		46EE50DF155E884900B0CAED /* BattleMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattleMapViewController.m; sourceTree = "<group>"; };
+		46EE50E6155E884900B0CAED /* BattleMapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleMapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EE50E7155E884900B0CAED /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		46EE50EF155E884900B0CAED /* BattleMapTests-Info.plist */ = {isa = PBXFileReference; path = "BattleMapTests-Info.plist"; sourceTree = "<group>"; };
+		46EE50F1155E884900B0CAED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46EE50F3155E884900B0CAED /* BattleMapTests.h */ = {isa = PBXFileReference; path = BattleMapTests.h; sourceTree = "<group>"; };
+		46EE50F4155E884900B0CAED /* BattleMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattleMapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46EE50BF155E884900B0CAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EE50C7155E884900B0CAED /* UIKit.framework in Frameworks */,
+				46EE50C9155E884900B0CAED /* Foundation.framework in Frameworks */,
+				46EE50CB155E884900B0CAED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EE50E2155E884900B0CAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EE50E8155E884900B0CAED /* SenTestingKit.framework in Frameworks */,
+				46EE50E9155E884900B0CAED /* UIKit.framework in Frameworks */,
+				46EE50EA155E884900B0CAED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46EE50B7155E884900B0CAED = {
+			isa = PBXGroup;
+			children = (
+				46EE50CC155E884900B0CAED /* BattleMap */,
+				46EE50ED155E884900B0CAED /* BattleMapTests */,
+				46EE50C5155E884900B0CAED /* Frameworks */,
+				46EE50C3155E884900B0CAED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46EE50C3155E884900B0CAED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46EE50C2155E884900B0CAED /* BattleMap.app */,
+				46EE50E6155E884900B0CAED /* BattleMapTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46EE50C5155E884900B0CAED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46EE50C6155E884900B0CAED /* UIKit.framework */,
+				46EE50C8155E884900B0CAED /* Foundation.framework */,
+				46EE50CA155E884900B0CAED /* CoreGraphics.framework */,
+				46EE50E7155E884900B0CAED /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46EE50CC155E884900B0CAED /* BattleMap */ = {
+			isa = PBXGroup;
+			children = (
+				46EE50D5155E884900B0CAED /* BattleMapAppDelegate.h */,
+				46EE50D6155E884900B0CAED /* BattleMapAppDelegate.m */,
+				46EE50D8155E884900B0CAED /* MainStoryboard_iPhone.storyboard */,
+				46EE50DB155E884900B0CAED /* MainStoryboard_iPad.storyboard */,
+				46EE50DE155E884900B0CAED /* BattleMapViewController.h */,
+				46EE50DF155E884900B0CAED /* BattleMapViewController.m */,
+				46EE50CD155E884900B0CAED /* Supporting Files */,
+			);
+			path = BattleMap;
+			sourceTree = "<group>";
+		};
+		46EE50CD155E884900B0CAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EE50CE155E884900B0CAED /* BattleMap-Info.plist */,
+				46EE50CF155E884900B0CAED /* InfoPlist.strings */,
+				46EE50D2155E884900B0CAED /* main.m */,
+				46EE50D4155E884900B0CAED /* BattleMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46EE50ED155E884900B0CAED /* BattleMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				46EE50F3155E884900B0CAED /* BattleMapTests.h */,
+				46EE50F4155E884900B0CAED /* BattleMapTests.m */,
+				46EE50EE155E884900B0CAED /* Supporting Files */,
+			);
+			path = BattleMapTests;
+			sourceTree = "<group>";
+		};
+		46EE50EE155E884900B0CAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46EE50EF155E884900B0CAED /* BattleMapTests-Info.plist */,
+				46EE50F0155E884900B0CAED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46EE50C1155E884900B0CAED /* BattleMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EE50F8155E884900B0CAED /* Build configuration list for PBXNativeTarget "BattleMap" */;
+			buildPhases = (
+				46EE50BE155E884900B0CAED /* Sources */,
+				46EE50BF155E884900B0CAED /* Frameworks */,
+				46EE50C0155E884900B0CAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BattleMap;
+			productName = BattleMap;
+			productReference = 46EE50C2155E884900B0CAED /* BattleMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46EE50E5155E884900B0CAED /* BattleMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EE50FB155E884900B0CAED /* Build configuration list for PBXNativeTarget "BattleMapTests" */;
+			buildPhases = (
+				46EE50E1155E884900B0CAED /* Sources */,
+				46EE50E2155E884900B0CAED /* Frameworks */,
+				46EE50E3155E884900B0CAED /* Resources */,
+				46EE50E4155E884900B0CAED /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EE50EC155E884900B0CAED /* PBXTargetDependency */,
+			);
+			name = BattleMapTests;
+			productName = BattleMapTests;
+			productReference = 46EE50E6155E884900B0CAED /* BattleMapTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46EE50B9155E884900B0CAED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 46EE50BC155E884900B0CAED /* Build configuration list for PBXProject "BattleMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46EE50B7155E884900B0CAED;
+			productRefGroup = 46EE50C3155E884900B0CAED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46EE50C1155E884900B0CAED /* BattleMap */,
+				46EE50E5155E884900B0CAED /* BattleMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46EE50C0155E884900B0CAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EE50D1155E884900B0CAED /* InfoPlist.strings in Resources */,
+				46EE50DA155E884900B0CAED /* MainStoryboard_iPhone.storyboard in Resources */,
+				46EE50DD155E884900B0CAED /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EE50E3155E884900B0CAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EE50F2155E884900B0CAED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46EE50E4155E884900B0CAED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46EE50BE155E884900B0CAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EE50D3155E884900B0CAED /* main.m in Sources */,
+				46EE50D7155E884900B0CAED /* BattleMapAppDelegate.m in Sources */,
+				46EE50E0155E884900B0CAED /* BattleMapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46EE50E1155E884900B0CAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EE50F5155E884900B0CAED /* BattleMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46EE50EC155E884900B0CAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46EE50C1155E884900B0CAED /* BattleMap */;
+			targetProxy = 46EE50EB155E884900B0CAED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46EE50CF155E884900B0CAED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46EE50D0155E884900B0CAED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		46EE50D8155E884900B0CAED /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46EE50D9155E884900B0CAED /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		46EE50DB155E884900B0CAED /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46EE50DC155E884900B0CAED /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		46EE50F0155E884900B0CAED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46EE50F1155E884900B0CAED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46EE50F6155E884900B0CAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46EE50F7155E884900B0CAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46EE50F9155E884900B0CAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BattleMap/BattleMap-Prefix.pch";
+				INFOPLIST_FILE = "BattleMap/BattleMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		46EE50FA155E884900B0CAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BattleMap/BattleMap-Prefix.pch";
+				INFOPLIST_FILE = "BattleMap/BattleMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		46EE50FC155E884900B0CAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BattleMap.app/BattleMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BattleMap/BattleMap-Prefix.pch";
+				INFOPLIST_FILE = "BattleMapTests/BattleMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		46EE50FD155E884900B0CAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BattleMap.app/BattleMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BattleMap/BattleMap-Prefix.pch";
+				INFOPLIST_FILE = "BattleMapTests/BattleMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46EE50BC155E884900B0CAED /* Build configuration list for PBXProject "BattleMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EE50F6155E884900B0CAED /* Debug */,
+				46EE50F7155E884900B0CAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46EE50F8155E884900B0CAED /* Build configuration list for PBXNativeTarget "BattleMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EE50F9155E884900B0CAED /* Debug */,
+				46EE50FA155E884900B0CAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46EE50FB155E884900B0CAED /* Build configuration list for PBXNativeTarget "BattleMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EE50FC155E884900B0CAED /* Debug */,
+				46EE50FD155E884900B0CAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46EE50B9155E884900B0CAED /* Project object */;
+}
