@@ -15,12 +15,22 @@
 		46EE50D7155E884900B0CAED /* BattleMapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE50D6155E884900B0CAED /* BattleMapAppDelegate.m */; };
 		46EE50DA155E884900B0CAED /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EE50D8155E884900B0CAED /* MainStoryboard_iPhone.storyboard */; };
 		46EE50DD155E884900B0CAED /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EE50DB155E884900B0CAED /* MainStoryboard_iPad.storyboard */; };
-		46EE50E0155E884900B0CAED /* BattleMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE50DF155E884900B0CAED /* BattleMapViewController.m */; };
 		46EE50E8155E884900B0CAED /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EE50E7155E884900B0CAED /* SenTestingKit.framework */; };
 		46EE50E9155E884900B0CAED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EE50C6155E884900B0CAED /* UIKit.framework */; };
 		46EE50EA155E884900B0CAED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EE50C8155E884900B0CAED /* Foundation.framework */; };
 		46EE50F2155E884900B0CAED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46EE50F0155E884900B0CAED /* InfoPlist.strings */; };
 		46EE50F5155E884900B0CAED /* BattleMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE50F4155E884900B0CAED /* BattleMapTests.m */; };
+		46EE5101155E8B6400B0CAED /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE5100155E8B6400B0CAED /* MenuTableViewController.m */; };
+		46EE5102155E8B6400B0CAED /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE5100155E8B6400B0CAED /* MenuTableViewController.m */; };
+		46EE510D155E981500B0CAED /* NewGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE510C155E981500B0CAED /* NewGameViewController.m */; };
+		46EE510E155E981500B0CAED /* NewGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE510C155E981500B0CAED /* NewGameViewController.m */; };
+		46EE5111155E982E00B0CAED /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE5110155E982E00B0CAED /* GameViewController.m */; };
+		46EE5112155E982E00B0CAED /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE5110155E982E00B0CAED /* GameViewController.m */; };
+		46EE5115155E983F00B0CAED /* OldGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE5114155E983F00B0CAED /* OldGameViewController.m */; };
+		46EE5116155E983F00B0CAED /* OldGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE5114155E983F00B0CAED /* OldGameViewController.m */; };
+		46EE511C155E997100B0CAED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EE511B155E997100B0CAED /* MapKit.framework */; };
+		46EE511F155EC65400B0CAED /* ScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE511E155EC65400B0CAED /* ScannerViewController.m */; };
+		46EE5120155EC65400B0CAED /* ScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EE511E155EC65400B0CAED /* ScannerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +48,31 @@
 		46EE50C6155E884900B0CAED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		46EE50C8155E884900B0CAED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		46EE50CA155E884900B0CAED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		46EE50CE155E884900B0CAED /* BattleMap-Info.plist */ = {isa = PBXFileReference; path = "BattleMap-Info.plist"; sourceTree = "<group>"; };
+		46EE50CE155E884900B0CAED /* BattleMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BattleMap-Info.plist"; sourceTree = "<group>"; };
 		46EE50D0155E884900B0CAED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46EE50D2155E884900B0CAED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		46EE50D4155E884900B0CAED /* BattleMap-Prefix.pch */ = {isa = PBXFileReference; path = "BattleMap-Prefix.pch"; sourceTree = "<group>"; };
-		46EE50D5155E884900B0CAED /* BattleMapAppDelegate.h */ = {isa = PBXFileReference; path = BattleMapAppDelegate.h; sourceTree = "<group>"; };
+		46EE50D4155E884900B0CAED /* BattleMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BattleMap-Prefix.pch"; sourceTree = "<group>"; };
+		46EE50D5155E884900B0CAED /* BattleMapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattleMapAppDelegate.h; sourceTree = "<group>"; };
 		46EE50D6155E884900B0CAED /* BattleMapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattleMapAppDelegate.m; sourceTree = "<group>"; };
 		46EE50D9155E884900B0CAED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		46EE50DC155E884900B0CAED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		46EE50DE155E884900B0CAED /* BattleMapViewController.h */ = {isa = PBXFileReference; path = BattleMapViewController.h; sourceTree = "<group>"; };
-		46EE50DF155E884900B0CAED /* BattleMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattleMapViewController.m; sourceTree = "<group>"; };
 		46EE50E6155E884900B0CAED /* BattleMapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleMapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EE50E7155E884900B0CAED /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		46EE50EF155E884900B0CAED /* BattleMapTests-Info.plist */ = {isa = PBXFileReference; path = "BattleMapTests-Info.plist"; sourceTree = "<group>"; };
+		46EE50EF155E884900B0CAED /* BattleMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BattleMapTests-Info.plist"; sourceTree = "<group>"; };
 		46EE50F1155E884900B0CAED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		46EE50F3155E884900B0CAED /* BattleMapTests.h */ = {isa = PBXFileReference; path = BattleMapTests.h; sourceTree = "<group>"; };
+		46EE50F3155E884900B0CAED /* BattleMapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattleMapTests.h; sourceTree = "<group>"; };
 		46EE50F4155E884900B0CAED /* BattleMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattleMapTests.m; sourceTree = "<group>"; };
+		46EE50FF155E8B6400B0CAED /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		46EE5100155E8B6400B0CAED /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		46EE510B155E981500B0CAED /* NewGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGameViewController.h; sourceTree = "<group>"; };
+		46EE510C155E981500B0CAED /* NewGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewGameViewController.m; sourceTree = "<group>"; };
+		46EE510F155E982E00B0CAED /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		46EE5110155E982E00B0CAED /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		46EE5113155E983F00B0CAED /* OldGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldGameViewController.h; sourceTree = "<group>"; };
+		46EE5114155E983F00B0CAED /* OldGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldGameViewController.m; sourceTree = "<group>"; };
+		46EE511B155E997100B0CAED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		46EE511D155EC65400B0CAED /* ScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerViewController.h; sourceTree = "<group>"; };
+		46EE511E155EC65400B0CAED /* ScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46EE511C155E997100B0CAED /* MapKit.framework in Frameworks */,
 				46EE50C7155E884900B0CAED /* UIKit.framework in Frameworks */,
 				46EE50C9155E884900B0CAED /* Foundation.framework in Frameworks */,
 				46EE50CB155E884900B0CAED /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +103,7 @@
 		46EE50B7155E884900B0CAED = {
 			isa = PBXGroup;
 			children = (
+				46EE511B155E997100B0CAED /* MapKit.framework */,
 				46EE50CC155E884900B0CAED /* BattleMap */,
 				46EE50ED155E884900B0CAED /* BattleMapTests */,
 				46EE50C5155E884900B0CAED /* Frameworks */,
@@ -113,13 +134,21 @@
 		46EE50CC155E884900B0CAED /* BattleMap */ = {
 			isa = PBXGroup;
 			children = (
+				46EE50FF155E8B6400B0CAED /* MenuTableViewController.h */,
+				46EE5100155E8B6400B0CAED /* MenuTableViewController.m */,
 				46EE50D5155E884900B0CAED /* BattleMapAppDelegate.h */,
 				46EE50D6155E884900B0CAED /* BattleMapAppDelegate.m */,
 				46EE50D8155E884900B0CAED /* MainStoryboard_iPhone.storyboard */,
 				46EE50DB155E884900B0CAED /* MainStoryboard_iPad.storyboard */,
-				46EE50DE155E884900B0CAED /* BattleMapViewController.h */,
-				46EE50DF155E884900B0CAED /* BattleMapViewController.m */,
 				46EE50CD155E884900B0CAED /* Supporting Files */,
+				46EE511D155EC65400B0CAED /* ScannerViewController.h */,
+				46EE511E155EC65400B0CAED /* ScannerViewController.m */,
+				46EE510B155E981500B0CAED /* NewGameViewController.h */,
+				46EE510C155E981500B0CAED /* NewGameViewController.m */,
+				46EE510F155E982E00B0CAED /* GameViewController.h */,
+				46EE5110155E982E00B0CAED /* GameViewController.m */,
+				46EE5113155E983F00B0CAED /* OldGameViewController.h */,
+				46EE5114155E983F00B0CAED /* OldGameViewController.m */,
 			);
 			path = BattleMap;
 			sourceTree = "<group>";
@@ -263,7 +292,11 @@
 			files = (
 				46EE50D3155E884900B0CAED /* main.m in Sources */,
 				46EE50D7155E884900B0CAED /* BattleMapAppDelegate.m in Sources */,
-				46EE50E0155E884900B0CAED /* BattleMapViewController.m in Sources */,
+				46EE5101155E8B6400B0CAED /* MenuTableViewController.m in Sources */,
+				46EE510D155E981500B0CAED /* NewGameViewController.m in Sources */,
+				46EE5111155E982E00B0CAED /* GameViewController.m in Sources */,
+				46EE5115155E983F00B0CAED /* OldGameViewController.m in Sources */,
+				46EE511F155EC65400B0CAED /* ScannerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +305,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				46EE50F5155E884900B0CAED /* BattleMapTests.m in Sources */,
+				46EE5102155E8B6400B0CAED /* MenuTableViewController.m in Sources */,
+				46EE510E155E981500B0CAED /* NewGameViewController.m in Sources */,
+				46EE5112155E982E00B0CAED /* GameViewController.m in Sources */,
+				46EE5116155E983F00B0CAED /* OldGameViewController.m in Sources */,
+				46EE5120155EC65400B0CAED /* ScannerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +413,7 @@
 				GCC_PREFIX_HEADER = "BattleMap/BattleMap-Prefix.pch";
 				INFOPLIST_FILE = "BattleMap/BattleMap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -386,6 +425,7 @@
 				GCC_PREFIX_HEADER = "BattleMap/BattleMap-Prefix.pch";
 				INFOPLIST_FILE = "BattleMap/BattleMap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

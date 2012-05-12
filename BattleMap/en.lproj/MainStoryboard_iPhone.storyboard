@@ -1,24 +1,182 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1906" systemVersion="11A511" targetRuntime="iOS.CocoaTouch" nextObjectID="6" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11D50b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="zDJ-5J-Zie">
     <dependencies>
         <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="902"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
     </dependencies>
     <scenes>
-        <scene sceneID="5">
+        <scene sceneID="ZfG-rG-bKs">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
-                <viewController id="2" customClass="BattleMapViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="geJ-b9-1q0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="ZeO-qF-AxE" customClass="MenuTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="100" sectionHeaderHeight="10" sectionFooterHeight="10" id="MkW-NW-I8X">
+                        <rect key="frame" x="0.0" y="44" width="320" height="436"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="100" id="Ej5-tb-5Ju">
+                                <rect key="frame" x="0.0" y="46" width="320" height="102"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="10" y="1" width="300" height="99"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ZeO-qF-AxE" id="ch2-Be-Kkj"/>
+                            <outlet property="delegate" destination="ZeO-qF-AxE" id="Syl-1v-P9G"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Menu" id="KdK-Bf-bbX"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <segue destination="3ZL-EF-keN" kind="push" identifier="showScanner" id="VVE-Za-3Y5"/>
+                        <segue destination="3xZ-fQ-KJx" kind="push" identifier="createNewGame" id="y2M-HL-sMa"/>
+                        <segue destination="hP6-mc-n4H" kind="push" identifier="showGame" id="H14-Io-xvV"/>
+                        <segue destination="FUS-2s-06s" kind="push" identifier="showOldGame" id="BlK-M3-KmO"/>
+                    </connections>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="1133" y="111"/>
+        </scene>
+        <scene sceneID="NpA-Cl-VRb">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hMo-G4-HJv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="3xZ-fQ-KJx" customClass="NewGameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="smh-6b-mrW">
+                        <rect key="frame" x="0.0" y="44" width="320" height="436"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="ye8-oy-IGE">
+                                <rect key="frame" x="0.0" y="150" width="320" height="135"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="0.30688055069999998" blue="0.35407755829999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="t6O-DE-XUE">
+                                <rect key="frame" x="40" y="14" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="New Game" id="frN-jY-ACg"/>
+                    <nil key="simulatedStatusBarMetrics"/>
                 </viewController>
             </objects>
+            <point key="canvasLocation" x="1678" y="-244"/>
+        </scene>
+        <scene sceneID="olh-ci-e9Q">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V1e-ie-zEU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="FUS-2s-06s" customClass="OldGameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yrT-x0-wHi">
+                        <rect key="frame" x="0.0" y="44" width="320" height="436"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Old Game" id="fsE-Tu-l5p"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1678" y="1080"/>
+        </scene>
+        <scene sceneID="aQQ-ti-T92">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iFX-3Z-sS0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="hP6-mc-n4H" customClass="GameViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IxM-45-8Lv">
+                        <rect key="frame" x="0.0" y="44" width="320" height="436"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="9Kq-AI-1DK">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Oponent's Name" id="Vyd-KK-hJc"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1678" y="434"/>
+        </scene>
+        <scene sceneID="bcn-0m-5PU">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uwO-RI-Bgr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="3ZL-EF-keN" customClass="ScannerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ehg-75-Z2T">
+                        <rect key="frame" x="0.0" y="44" width="320" height="436"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="zVK-s7-eqj">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="392"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="QmE-S4-G5r">
+                                <rect key="frame" x="0.0" y="392" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="rDK-jv-BXD"/>
+                                    <barButtonItem title="Item" id="HyZ-eD-pnG"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="hA1-XI-BH8"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Scanner" id="G4j-Za-0BU"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="mapView" destination="zVK-s7-eqj" id="XHd-V8-8Mc"/>
+                        <outlet property="view" destination="ehg-75-Z2T" id="jmU-Qs-wg9"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1678" y="-891"/>
+        </scene>
+        <scene sceneID="lvX-Bi-qOH">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yw1-Sz-ziq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="zDJ-5J-Zie" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="CRi-eu-Mx5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ZeO-qF-AxE" kind="relationship" relationship="rootViewController" id="ahJ-LZ-pUn"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="607" y="111"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="GameViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GameViewController.h"/>
+        </class>
+        <class className="MenuTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MenuTableViewController.h"/>
+        </class>
+        <class className="NewGameViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NewGameViewController.h"/>
+        </class>
+        <class className="OldGameViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/OldGameViewController.h"/>
+        </class>
+        <class className="ScannerViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScannerViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

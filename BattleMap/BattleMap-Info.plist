@@ -47,5 +47,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIPrerenderedIcon</key>
+	<true/>
+	<key>UIStatusBarHidden</key>
+	<true/>
 </dict>
 </plist>

@@ -1,5 +1,5 @@
 //
-//  BattleMapViewController.h
+//  OldGameViewController.h
 //  BattleMap
 //
 //  Created by Albert Perez Rabella on 12/05/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BattleMapViewController : UIViewController
+@interface OldGameViewController : UIViewController
 
 @end
