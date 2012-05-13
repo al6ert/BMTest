@@ -7,14 +7,23 @@
 //
 
 #import "OldGameViewController.h"
+#import <MapKit/MapKit.h>
+
+@interface OldGameViewController ()
+
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
+
+@end
 
 @implementation OldGameViewController
+@synthesize mapView = _mapView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.mapView = _mapView;
     }
     return self;
 }
@@ -46,6 +55,7 @@
 
 - (void)viewDidUnload
 {
+    [self setMapView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

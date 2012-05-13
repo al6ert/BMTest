@@ -38,14 +38,13 @@
 
 #pragma mark - View lifecycle
 
-
+/*
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView
 {
-    //self.mapView.showsUserLocation = TRUE;
-    //self.mapView.mapType = MKMapTypeHybrid;
-}
 
+}
+*/
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
