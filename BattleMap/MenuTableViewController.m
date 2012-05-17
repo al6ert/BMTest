@@ -5,7 +5,7 @@
 //  Created by Albert Pérez on 26/02/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
-//  XCode to Github test line..
+//  XCode to Github test line...
 #import "MenuTableViewController.h"
 
 @implementation MenuTableViewController
