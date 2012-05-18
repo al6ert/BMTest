@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 // test marc github 17 - 17:23
+// New change by Isaac
 
 #import "BattleMapAppDelegate.h"
 
