@@ -103,7 +103,6 @@
 		46EE50B7155E884900B0CAED = {
 			isa = PBXGroup;
 			children = (
-				46EE511B155E997100B0CAED /* MapKit.framework */,
 				46EE50CC155E884900B0CAED /* BattleMap */,
 				46EE50ED155E884900B0CAED /* BattleMapTests */,
 				46EE50C5155E884900B0CAED /* Frameworks */,
@@ -123,6 +122,7 @@
 		46EE50C5155E884900B0CAED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				46EE511B155E997100B0CAED /* MapKit.framework */,
 				46EE50C6155E884900B0CAED /* UIKit.framework */,
 				46EE50C8155E884900B0CAED /* Foundation.framework */,
 				46EE50CA155E884900B0CAED /* CoreGraphics.framework */,
@@ -483,6 +483,7 @@
 				46EE50FA155E884900B0CAED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46EE50FB155E884900B0CAED /* Build configuration list for PBXNativeTarget "BattleMapTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +492,7 @@
 				46EE50FD155E884900B0CAED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
